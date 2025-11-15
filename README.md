@@ -2,9 +2,9 @@
 
 ---
 
-## 2. Análise de Fluxo (Método `verificarUsuario` Original)
+## 1. Análise de Fluxo (Método `verificarUsuario` Original)
 
-### 2.1. Notação de Grafo de Fluxo
+### 1.1. Notação de Grafo de Fluxo
 
 
 * **Nó 1 (Entrada):** Inicia o método, define `sql` e chama `conectarBD()`.
@@ -14,7 +14,7 @@
 * **Nó 5 (Catch):** `catch (Exception e)`
 * **Nó 6 (Saída):** `return result;`
 
-### 2.2. Cálculo da Complexidade Ciclomática (V(G))
+### 1.2. Cálculo da Complexidade Ciclomática (V(G))
 
 A complexidade ciclomática define o número de caminhos de teste independentes.
 
@@ -30,7 +30,7 @@ A complexidade ciclomática define o número de caminhos de teste independentes.
 
 A complexidade ciclomática do método é 3.
 
-### 2.3. Caminhos Básicos
+### 1.3. Caminhos Básicos
 
 Com base em V(G) = 3, existem 3 caminhos básicos independentes para teste:
 
